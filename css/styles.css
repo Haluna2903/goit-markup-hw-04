@@ -310,7 +310,8 @@ img {
 .company-icon {
   fill: currentColor;
 }
-.company-link:hover {
+.company-link:hover,
+.company-link:focus {
   color: var(--btn-color-herro-hover);
   border: 1px solid var(--btn-color-herro-hover);
 }
