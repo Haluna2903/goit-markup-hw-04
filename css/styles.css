@@ -260,7 +260,7 @@ img {
   padding-bottom: 32px;
 }
 
-/*icon*/
+/*icon team*/
 .socials-list {
   display: flex;
   gap: 24px;
@@ -362,7 +362,8 @@ img {
   flex-basis: calc((100% - 48px) / 3);
 }
 .portfolio-link:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-card {
